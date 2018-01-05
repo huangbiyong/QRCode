@@ -12,6 +12,12 @@
 		1471EE2F1FFF18DE007C5BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1471EE2D1FFF18DE007C5BDE /* Main.storyboard */; };
 		1471EE311FFF18DE007C5BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1471EE301FFF18DE007C5BDE /* Assets.xcassets */; };
 		1471EE341FFF18DE007C5BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1471EE321FFF18DE007C5BDE /* LaunchScreen.storyboard */; };
+		1471EE3D1FFF7860007C5BDE /* GeneratorQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471EE3C1FFF7860007C5BDE /* GeneratorQRViewController.swift */; };
+		1471EE3F1FFF787A007C5BDE /* DetectorQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471EE3E1FFF787A007C5BDE /* DetectorQRViewController.swift */; };
+		1471EE411FFF7887007C5BDE /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471EE401FFF7887007C5BDE /* ScanQRViewController.swift */; };
+		1471EE431FFF78AA007C5BDE /* BYQRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471EE421FFF78AA007C5BDE /* BYQRCodeTool.swift */; };
+		1471EE451FFF7D3D007C5BDE /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1471EE441FFF7D3D007C5BDE /* head.jpg */; };
+		1471EE471FFF7FE0007C5BDE /* erweima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1471EE461FFF7FE0007C5BDE /* erweima.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		1471EE301FFF18DE007C5BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1471EE331FFF18DE007C5BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1471EE351FFF18DE007C5BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1471EE3C1FFF7860007C5BDE /* GeneratorQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorQRViewController.swift; sourceTree = "<group>"; };
+		1471EE3E1FFF787A007C5BDE /* DetectorQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorQRViewController.swift; sourceTree = "<group>"; };
+		1471EE401FFF7887007C5BDE /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		1471EE421FFF78AA007C5BDE /* BYQRCodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYQRCodeTool.swift; sourceTree = "<group>"; };
+		1471EE441FFF7D3D007C5BDE /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		1471EE461FFF7FE0007C5BDE /* erweima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = erweima.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		1471EE281FFF18DE007C5BDE /* 二维码综合 */ = {
 			isa = PBXGroup;
 			children = (
+				1471EE3B1FFF7824007C5BDE /* Classes */,
 				1471EE291FFF18DE007C5BDE /* AppDelegate.swift */,
 				1471EE2B1FFF18DE007C5BDE /* ViewController.swift */,
 				1471EE2D1FFF18DE007C5BDE /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				1471EE351FFF18DE007C5BDE /* Info.plist */,
 			);
 			path = "二维码综合";
+			sourceTree = "<group>";
+		};
+		1471EE3B1FFF7824007C5BDE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1471EE461FFF7FE0007C5BDE /* erweima.jpg */,
+				1471EE441FFF7D3D007C5BDE /* head.jpg */,
+				1471EE3C1FFF7860007C5BDE /* GeneratorQRViewController.swift */,
+				1471EE3E1FFF787A007C5BDE /* DetectorQRViewController.swift */,
+				1471EE401FFF7887007C5BDE /* ScanQRViewController.swift */,
+				1471EE421FFF78AA007C5BDE /* BYQRCodeTool.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1471EE341FFF18DE007C5BDE /* LaunchScreen.storyboard in Resources */,
+				1471EE451FFF7D3D007C5BDE /* head.jpg in Resources */,
+				1471EE471FFF7FE0007C5BDE /* erweima.jpg in Resources */,
 				1471EE311FFF18DE007C5BDE /* Assets.xcassets in Resources */,
 				1471EE2F1FFF18DE007C5BDE /* Main.storyboard in Resources */,
 			);
@@ -136,8 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1471EE431FFF78AA007C5BDE /* BYQRCodeTool.swift in Sources */,
 				1471EE2C1FFF18DE007C5BDE /* ViewController.swift in Sources */,
+				1471EE3F1FFF787A007C5BDE /* DetectorQRViewController.swift in Sources */,
+				1471EE3D1FFF7860007C5BDE /* GeneratorQRViewController.swift in Sources */,
 				1471EE2A1FFF18DE007C5BDE /* AppDelegate.swift in Sources */,
+				1471EE411FFF7887007C5BDE /* ScanQRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +307,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35W2W2S5R;
 				INFOPLIST_FILE = "二维码综合/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -289,11 +322,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D35W2W2S5R;
 				INFOPLIST_FILE = "二维码综合/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
